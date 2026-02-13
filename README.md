@@ -48,7 +48,7 @@ An example of S-index calculation is provided in **Fig. 1**. Calculation only re
 
 ## Table
 
-Table 1. Major resources needed to calculate the proposed Dataset Index and S-index. All are free, and the majority are open source. All are existing infrastructure, except for the custom domain classification model we have fine-tuned to fill a gap for datasets without a domain assigned in OpenAlex. We have already used most of them in our large-scale testing and validation as part of our submission for Phase2 of the NIH S-index Challenge.
+Table 1. Major resources needed to calculate the proposed Dataset Index and S-index. All are free, and the majority are open source. All are existing infrastructure, except for the custom domain classification model we have fine-tuned to fill a gap for datasets without a domain assigned in OpenAlex. We have already used most of them in our large-scale testing and validation as part of our submission for Phase 2 of the NIH S-index Challenge.
 
 | Purpose | Resources | Free? | Used in testing? |
 |---|---|:---:|:---:|

@@ -17,16 +17,16 @@ $$
 Here, $F_i$ is the FAIR score between 0 and 1 of dataset $i$. $C_{i}^w$ and $M_{i}^w$ are logarithmic time-weighted counts of the $P$ citations and $Q$ alternative mentions to dataset $i$:
 
 $$
-C_{i}^w=\sum_{c=1}^{P}\left(1+0.33\times\ln\left(1+\Delta t_{i,c}\right)\right),
+C_{i}^w=\sum_{c=1}^{P}\left[1+0.33\times\ln\left(1+\Delta t_{i,c}\right)\right],
 \qquad
-M_{i}^w=\sum_{q=1}^{Q}\left(1+0.33\times\ln\left(1+\Delta t_{i,q}\right)\right)
+M_{i}^w=\sum_{q=1}^{Q}\left[1+0.33\times\ln\left(1+\Delta t_{i,q}\right)\right]
 $$
 
 Here, $\Delta t$ represents the time in years between the citation/mention event and the dataset’s publication. This weighting is designed to reward sustained reuse: a citation/mention on the day of dataset publication counts as 1, while one 20 years later counts as 2.
 
 $F_T$, $C_{T}^w$, and $M_{T}^w$ are normalization factors intended to control for differences in field size, data reuse culture, and changing practices over time. They are calculated as 3-year moving medians based on datasets from the same field.
 
-An example of S-index calculation is provided in **Fig. 1**. Calculation only requires dataset metadata from existing infrastructure (**Table 1**), enabling large-scale calculation regardless of dataset size, format, reuse license, and access conditions. Because no existing infrastructure aggregates these signals, we are building automated pipelines that find datasets, compute FAIR scores, identify citations and alternative mentions, and periodically update Dataset and S-indices. Outputs are stored in an open **Dataset Registry** and easily accessible via **Scholar Data**, a Google Scholar-like platform for tracking datasets and S-index (**Fig. 2**).
+An example of S-index calculation is provided in **Fig. 1**. Calculation only requires dataset metadata from existing infrastructure (**Table 1**), enabling large-scale calculation regardless of dataset size, format, reuse license, and access conditions. Because no existing infrastructure aggregates these signals, we are building automated pipelines that find datasets, compute FAIR scores, identify citations and alternative mentions, and periodically update Dataset and S-indices (**Fig. 2**). As part of our testing and validation for Phase 2 of the NIH S-index Challenge, we calculated the Dataset-Index of 49M+ datasets and 1M+ S-index. They are accessible at [beta.scholardata.io](https://beta.scholardata.io), the Google-Scholar like platform we are building for researchers to find datasets and track their S-index the same way they track their manuscripts and h-index.
 
 ## Figures
 ![Fig. 1. Example S-index calculation](figures/fig1.png)

@@ -29,9 +29,17 @@ $F_T$, $C_{T}^w$, and $M_{T}^w$ are normalization factors intended to control fo
 An example of S-index calculation is provided in **Fig. 1**. Calculation only requires dataset metadata from existing infrastructure (**Table 1**), enabling large-scale calculation regardless of dataset size, format, reuse license, and access conditions. Because no existing infrastructure aggregates these signals, we are building automated pipelines that find datasets, compute FAIR scores, identify citations and alternative mentions, and periodically update Dataset and S-indices (**Fig. 2**). As part of our testing and validation for Phase 2 of the NIH S-index Challenge, we calculated the Dataset-Index of 49M+ datasets and 1M+ S-index. They are accessible at [beta.scholardata.io](https://beta.scholardata.io), the Google-Scholar like platform we are building for researchers to find datasets and track their S-index the same way they track their manuscripts and h-index.
 
 ## Figures
-![Fig. 1. Example S-index calculation](figures/fig1.png)
+<p align="center">
+  <img src="figures/fig1.png" alt="Fig. 1. Example S-index calculation" width="700">
+  <br>
+  <em>Fig. 1. Example of the calculation of the Dataset Index of a dataset and the S-index of its author. Steps 1-5 need to be repeated for each dataset of the researcher to calculate their S-index. Steps 3B to 6 need to be repeated periodically (e.g., monthly) to account for new citations and mentions (the FAIR score will change if there are major updates to the data repository’s metadata practices, and normalization factors will change if we identify citations or mentions we may have missed in prior years).</em>
+</p>
 
-![Fig. 2. Overview of the pipelines for collecting dataset-level data to compute the S-index of researchers](figures/fig2.png)
+<p align="center">
+  <img src="figures/fig2.png" alt="Overview of the pipelines for collecting data" width="700">
+  <br>
+  <em>Fig. 2. Overview of the pipelines for collecting dataset-level data to compute the S-index of researchers</em>
+</p>
 
 ## Table
 

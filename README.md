@@ -1,4 +1,4 @@
-# OVerview: A Simple and Field-Aware S-Index for Promoting and Rewarding Data Sharing
+# Overview: A Simple and Field-Aware S-Index for Promoting and Rewarding Data Sharing
 
 **This README provides an overview of the formulation and calculation of our S-index**
 

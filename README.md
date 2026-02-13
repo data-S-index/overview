@@ -10,7 +10,7 @@
 ## Introduction  
 Despite growing adoption of data sharing, there is still no standardized, transparent, and equitable way to measure and incentivize it. Our team is one of the finalists of the NIH S-index Challenge established to address this problem. As part of the Challenge, we propose the **S-index**, a metric that evaluates the data sharing impact of a researcher based on dataset-level signals of **FAIRness**, **citations**, and **alternative mentions**. Addressing limitations of existing metrics, our S-index is simple to interpret, incentivizing data sharing, field-sensitive, responsive to evolving practices, and feasible to implement sustainably using existing infrastructure. 
 
-We provide below an overview of the formulation and calculation of our S-index. We refer to the [S-index Hub](https://github.com/data-S-index/hub) for more information about our S-index and related resources.
+We provide below an overview of the formulation and calculation of our S-index. We refer to the [S-index Hub](https://github.com/data-S-index/hub) for more information about our S-index and related resources. Details about the NIH S-index Challenge are available [here](https://www.freelancer.com/contest/NIH-Data-Sharing-Index-Sindex-Challenge-Phase--2617986/details) and [here](http://nei.nih.gov/research-and-training/research-news/nih-challenge-aimed-incentivizing-data-sharing-recognizes-phase-1-winners).
 
 ## Proposed S-index  
 We introduce a framework in which a dataset $i$ is assigned a **Dataset Index** $D_i$ that combines FAIRness, scholarly citations, and alternative mentions. A researcher's **S-index** is then defined as the sum of the Dataset Indices of their $N$ datasets:

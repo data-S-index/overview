@@ -1,3 +1,6 @@
+> [!WARNING]
+> **This page is no longer maintained.** Content has moved to **[docs.scholardata.io](https://docs.scholardata.io)** — please refer there for up-to-date information.
+
 # Overview: A Simple and Field-Aware S-Index for Promoting and Rewarding Data Sharing
 
 **This README provides an overview of the formulation and calculation of our S-index**
